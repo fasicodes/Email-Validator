@@ -1,5 +1,5 @@
 #i am writing a program through which we chick the email it is vilid or not
-email =("fasiullah0303@gmail.com")        #(f@f.in) --- -- > it is the simple of email
+email = input("Enter the Email:  ")        #(f@f.in) --- -- > it is the simple of email
 d,g,f=0,0,0
 if len(email) >= 6:
     if email[0].isalpha() :
@@ -21,7 +21,7 @@ if len(email) >= 6:
                 if d == 1 or g== 1 or f == 1:
                     print("Yor email is wrong please chick the space , must all letter is small , and nothing special character is used")  
                 else :
-                    print("write email")      
+                    print(" email")      
             else :
                 print("Wrong Email because the use of '.' is not correct location")
             
@@ -39,4 +39,3 @@ else :
                                
                           
 
-# Email-Validator
